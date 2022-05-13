@@ -1,0 +1,29 @@
+.button {
+    inline-size: 32px; /*tamaño del bloque horizontal*/
+    block-size: 32px; /*tamaño del bloque vertical*/
+    border: none;
+    background-color: transparent; /*también con unset o initial, no vale con none*/
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; /*activa la manito al pasar el cursor por el ícono*/
+}
+
+.button:active {  /*pseudo clase que agrega un atributo a la clase button*/
+    transform: scale(.9);  /*genera el efecto en el ícono donde 1 = 100% */
+}
+
+#play {
+    background-image: url('../images/play.svg');
+}
+
+#pause {
+    background-image: url('../images/pause.svg');
+}
+
+#backward {
+    background-image: url('../images/-10.svg');
+}
+
+#forward {
+    background-image: url('../images/+10.svg');
+}

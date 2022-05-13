@@ -1,0 +1,66 @@
+@import './buttons.css';
+
+body {
+    background-color: #26B4BC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    max-inline-size: 900px;
+    margin: auto;
+}
+
+.player {
+    margin-block-start: 100px;
+    /* border: 10px solid red; */ /*para enterarme que todo quede dentro del cuadrado rojo*/
+    position: relative; /*se coloca en la relación con su posición normal*/
+}
+
+.player video {
+    inline-size: 100%;
+    aspect-ratio: 16/9; /*para que siempre mantenga esa resolución*/
+    vertical-align: middle; /*para corregir un pequeño error en el bloque*/
+    object-fit: cover; /*amplía al maximo proporcionalmente la imagen poster (que es de mala calidad)*/
+    }
+
+.player-title {
+    color: white;
+    position: absolute; /*se coloca en relación con el primer elemento principal relativo, o sea con player*/
+    inset-block-start: 0; /*para desvincularlo del bloque*/
+    inset-inline-start: 20px;
+}
+
+.player-actions {
+    position: absolute;
+    inset: 0; /*expande el espacio al máximo como el padre*/
+    /* border: 10px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /*separación entre los íconos*/
+    /* z-index: 2;  corrige el stack que quedó mal con el video abajo. También puedo poner la línea del video arriba de player-actions */
+    }
+
+    .player-progress {
+        /* background-color: yellow; */
+        position: absolute; /*para que siga sobre el reproductor*/
+        inset-block-end: 0; /*hacia abajo del reproductor*/
+        inset-inline: 0; /*todo a lo ancho del reproductor*/
+        display: flex; /*activar el flexbox*/
+        padding: 10px; /*márgen interno*/
+    }
+
+    .player-progress input {
+        flex: 1;
+    }
+
+    .player-overlay {  /*la nueva capa que contiene todos los botones y la barra de tiempo*/
+        position: absolute;
+        inset: 0;
+        opacity: 0; /*para que siempre esté invisible en forma de reposo*/
+        transition: .3s opacity; /*efecto de esfumado para que no sea tan tosco*/
+    }
+
+    .player:hover .player-overlay {  /*se activa si solo si apoyo el cursor sobre el reproductor*/
+        opacity: 1; /*pero se hará visible al pasarle el cursor por encima*/
+    }
