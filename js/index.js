@@ -28,17 +28,17 @@ function handlePause() {
 $backward.addEventListener('click', handleBackward)
 
 function handleBackward() {
-    $video.currentTime = $video.currentTime - 10 //currentTime marca el tiempo donde se encuentra el video.
-    // $video.currentTime -= 10 es una forma abreviada de hacer el código de arriba.
-    console.log("Para atrás 10 segundos.", $video.currentTime) //para verlo en el log al tiempo y comprobar que funciona bien.
+    $video.currentTime = $video.currentTime - 5 //currentTime marca el tiempo donde se encuentra el video.
+    // $video.currentTime -= 5 es una forma abreviada de hacer el código de arriba.
+    console.log("Para atrás 5 segundos.", $video.currentTime) //para verlo en el log al tiempo y comprobar que funciona bien.
 }
 
 $forward.addEventListener('click', handleForward)
 
 function handleForward() {
-    // $video.currentTime = $video.currentTime + 10 
-    $video.currentTime += 10
-    console.log("Para adelante 10 segundos.", $video.currentTime)
+    // $video.currentTime = $video.currentTime + 5 
+    $video.currentTime += 5
+    console.log("Para adelante 5 segundos.", $video.currentTime)
 }
 
 //BARRA DE TIEMPO. 1-VARIABLE. 2-EVENT LISTENERS AL CARGAR LA METADATA Y SU FUNCIÓNES.
