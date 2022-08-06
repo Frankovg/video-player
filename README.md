@@ -1,6 +1,6 @@
 # Video Player
 > Video-Player made from scratch with HTML, CSS and JavaScript. It's an excercise of the course Introduction to Web Development.
-> Live demo [_here_](frankovg.github.io/video-player/). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://frankovg.github.io/video-player/). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
