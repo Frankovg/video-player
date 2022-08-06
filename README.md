@@ -17,24 +17,23 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- The Video Player is an excercise for learning Vanilla Javascript.
+- All the functionalities are made with JS.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- JavaScript
+- HTML5
+- CSS3
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- It detects the duration of the video automatically.
+- You can go forward or backward 5 seconds (because the example video is too short, but it can be changed to 10 seconds).
+- Play and pause.
+- The timebar can be changed by clicking on it.
 
 
 ## Screenshots
