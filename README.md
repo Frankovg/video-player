@@ -38,7 +38,7 @@ List the ready features here:
 
 
 ## Acknowledgements
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on [Leonidas Esteban](https://leonidasesteban.com/) tutorial.
 
 
 ## Contact
