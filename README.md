@@ -1,6 +1,6 @@
 # Video Player
 > Video-Player made from scratch with HTML, CSS and JavaScript. It's an excercise of the course Introduction to Web Development.
-> Live demo [_here_](https://frankovg.github.io/video-player/). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://frankovg.github.io/video-player/).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -9,13 +9,11 @@
 * [Screenshots](#screenshots)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
 
 
 ## General Information
 - The Video Player is an excercise for learning Vanilla Javascript.
 - All the functionalities are made with JS.
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
@@ -42,11 +40,4 @@ List the ready features here:
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [Franco Amoroso](https://www.linkedin.com/in/francoamoroso/)) - feel free to contact me!
