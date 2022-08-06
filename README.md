@@ -40,4 +40,4 @@ List the ready features here:
 
 
 ## Contact
-Created by [Franco Amoroso](https://www.linkedin.com/in/francoamoroso/)) - feel free to contact me!
+Created by [Franco Amoroso](https://www.linkedin.com/in/francoamoroso/) - feel free to contact me!
